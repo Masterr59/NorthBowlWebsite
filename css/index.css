@@ -1,0 +1,215 @@
+/* font-family: 'Barlow', sans-serif; */
+
+:root
+{
+    --red: #e81919;
+    --gray: #878585;
+}
+
+#logo
+{
+    padding: 5px;
+}
+
+.center 
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+  }
+
+.subnav {
+    position: sticky;
+    bottom: 38px;
+    color:rgb(255, 255, 255);
+    font-family: 'Arvo', serif;
+    font-size: max(1.2vw, 13px);
+}
+@media (min-width: 768px)
+{
+	.subnav { bottom: 48px; }
+}
+
+.nav-link 
+{ 
+    color:rgb(255, 255, 255); 
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.nav-link:active { color:black; }
+
+/* Style the tab buttons */
+.tablink {
+    z-index: 1;
+    background-color: rgb(77, 77, 77);
+    color: white;
+    font-family: 'Arvo', serif;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    position: sticky;
+    bottom: 0;
+    font-size: max(1.2vw, 12px);
+    width: 25%;
+  }
+  
+  /* Change background color of buttons on hover */
+  .tablink:hover {
+    background-color: rgb(205, 205, 205);
+  }
+  
+  /* Set default styles for tab content */
+  .tabcontent {
+    color: rgb(0, 0, 0);
+    display: none;
+    /* padding: 50px; */
+    text-align: center;
+  }
+
+
+/* ###### Food & Bar ###### */
+  
+  .slideshow{							/*Slideshow Settings*/
+	padding-bottom: 3%;
+}
+
+.menu-dl{							/*Menu Download button Settings*/
+	padding-bottom: 4%;
+}
+
+/*Sub-Nav Tab Settings*/
+.nav { z-index: 1; }
+
+.nav-tabs .active 
+{					
+	background-color: var(--red) !important;
+	color:#fff !important;
+}
+
+.nav-tabs button:hover {
+	background-color: var(--gray);
+	color:#fff;
+}
+
+.nav-link {
+    font-family:arvo;
+    color:#000;
+}
+
+#foodBarNavList { background-color: #eae8e8; }
+
+.menu-text {
+    font-family: 'Barlow', sans-serif;
+    font-size:16px;
+    color: #000;
+    text-align: center;
+    padding:30px;
+}
+
+.menu-text h3{
+	font-family:arvo;
+	text-align: center;
+	color: var(--red);
+}
+
+
+/* ##### Contacts ##### */
+
+.contact-header{							/*Contact header font settings*/
+    font-family: arvo;
+    color: #000;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+  
+  .contact-font{								/*Contact body font settings*/
+    font-family: gudea;
+    font-size:18px;
+    color: #000;
+    text-align: center;
+    padding: 1%;
+  }
+  
+  .contact-font b{							/*Contact subheader font settings*/
+    font-family: arvo;
+    font-size:25px;
+    color: var(--red);
+    text-align: left;
+    padding: 1%;
+  }
+  
+
+
+/*Header Font Settings for Google Maps section*/
+.gm-header {						 
+    font-family: arvo;
+    color: #000;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  
+  iframe {						/* Google Maps Div Settings */
+    box-shadow:20px 20px 10px grey;
+  }
+
+
+
+/* Style each tab content individually */
+
+
+
+/* ###### Side Bars ###### */
+
+/* .sidenav {
+    width: 100px;
+    position: fixed;
+    z-index: 1;
+    top: 20px;
+    left: 10px;
+    background: #eee;
+    overflow-x: hidden;
+    padding: 8px 0;
+  }
+  
+  .sidenav a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 16px;
+    color: #2196F3;
+    display: block;
+  }
+  
+  .sidenav a:hover {
+    color: #064579;
+  }
+  
+  .main {
+    margin-left: 140px; /* Same width as the sidebar + left position in px 
+    font-size: 16px;  Increased text to enable scrolling 
+    padding: 0px 10px;
+  }
+  
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  } */
+
+.footer
+{
+  margin-top: 37px;
+  height: 100px;
+	color: white;
+	bottom: 0;
+	background-color: black;
+	opacity: .8;
+}
+@media (min-width: 768px)
+{
+	.footer { margin-top: 48px; }
+}

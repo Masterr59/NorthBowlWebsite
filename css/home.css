@@ -1,0 +1,48 @@
+/*Button Settings*/
+.home-buttons {							  
+  display: block;
+  width: 150px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: var(--red);
+  border-color: var(--red);
+  border: 2px solid;
+  font-family: arvo;
+  font-size:18px;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  transition-duration: 0.2s;
+  cursor: pointer;
+}
+
+.home-buttons:hover{
+	background-color: var(--gray);
+	border-color: var(--gray);
+}
+
+.home-header-font {
+	font-family: arvo;
+	text-align: center;
+	padding-top: 5%;
+}
+
+@media (min-width: 768px)
+{
+	.home-header-font
+	{
+	padding-top: 15%;
+	}
+}
+
+.home-text{
+	font-family: 'Barlow', sans-serif;
+	font-size: 13pt;
+	text-align: center;
+}
+
+.home-padding
+	{
+	padding-bottom: 5%;
+	}

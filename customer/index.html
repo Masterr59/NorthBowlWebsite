@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>North Bowl</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" href="../images/logos/logosquare_32px.jpg">
+  <link rel="stylesheet" href="../css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link rel="stylesheet" href="../css/index.css">
+  <link rel="stylesheet" href="../css/home.css">
+  <!-- <link rel="stylesheet" href="./css/carousel.css"> -->
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Arvo&display=swap" rel="stylesheet"> 
+  <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@200&display=swap" rel="stylesheet"> 
+  <link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,200;1,200&display=swap" rel="stylesheet"> 
+
+  <!-- Bootstrap version: 5.2.0 -->
+  <script src="../js/jquery-3.6.0.min.js"></script>
+  <script src="../js/bootstrap.bundle.min.js"></script>
+  <script src="../js/main.js"></script>
+
+<!--   <script src="./js/timeFormatter.js"></script>
+  <script src="./js/hoursOfOperation.js"></script>
+  <script src="./js/leagueInformation.js"></script>
+  <script src="./js/bowlingProducts.js"></script> -->
+
+<style>
+
+</style>
+
+</head>
+<body>
+  <!-- Background Image -->
+  <!-- <img id="bgimage" src="./" class="bg" alt="backgound"/> -->
+  <div style="background-color: rgb(77, 77, 77);">
+      <img id="logo" class="center" src="../images/logos/logo-trans.png" alt="North Bowl">
+  </div>
+
+  <div id="defaultOpen" w3-include-html="home.html"></div>
+
+  <div id="Bowl" class="tabcontent">
+    <!--         <div class="sidenav">
+                <a href="#about">About</a>
+                <a href="#services">Services</a>
+                <a href="#clients">Clients</a>
+                <a href="#contact">Contact</a>
+              </div> -->
+              
+    <div>
+      <h2>Auto Sidebar</h2>
+      <p>This sidebar is as tall as its content (the links), and is always shown.</p>
+      <a href="#Contact">Let me play with my pork.</a>
+      <p>Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.</p>
+    </div>
+    
+    <div id="proshop">
+      <h2>Pro Shop</h2>
+      <div id="proShopCarousel" class="carousel slide carousel-fade" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="../images/proshop/store-balls-red.png" class="d-block w-75" alt="Bowling Ball Selection">
+          </div>
+          <div class="carousel-item">
+            <img src="../images/proshop/store-drill-red.png" class="d-block w-75" alt="Ball Drill">
+          </div>
+          <div class="carousel-item">
+            <img src="../images/proshop/store-shoes-red.png" class="d-block w-75" alt="Ball Drill">
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <ul class="nav justify-content-center navbar-light subnav" style="background-color: red;">
+      <li class="nav-item">
+        <a class="nav-link active" aria-current="page" href="#hours">Hours</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#prices">Prices</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#openlanes">Open Lanes</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#leagues">Leagues</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#proshop">Pro Shop</a>
+      </li>
+    </ul>
+  </div> 
+
+  <div id="PartiesEvents" class="tabcontent">
+      <h1>Parties and Events</h1>
+      <p>Paris is the capital of France.</p>
+  </div>
+
+  <!-- ########## Food and Bar ########## -->
+  <div w3-include-html="foodbar.html"></div>
+
+
+
+  <div id="Contact" class="tabcontent">
+    <!-- Contact Info -->
+    <div class="container">
+      <div class="row">
+        <div>
+            <!--Google Maps--> 
+          <section>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2686.7312591545206!2d-117.41608688450148!3d47.67021689157457!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x549e18f0359c5b11%3A0x69a60d12fb462be1!2s125%20W%20Sinto%20Ave%2C%20Spokane%2C%20WA%2099201!5e0!3m2!1sen!2sus!4v1659939400127!5m2!1sen!2sus" width="100%" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </section>
+
+          <h1 class="contact-header">Contact Information</h1>
+          <p class="contact-font">
+            <b>Front Desk Phone:</b><br> 
+            (509) 328-7090<br><br>
+            <b>Reservation Requests:</b><br> 
+            <a href="mailto:reservations@northbowlspokane.com">reservations@northbowlspokane.com</a><br><br> 
+            <b>Feedback:</b><br> 
+            <a href="mailto:feedbacks@northbowlspokane.com">feedback@northbowlspokane.com</a><br><br> 
+
+            <b>Address:</b><br>
+            125 W. Sinto Avenue<br>
+            Spokane, WA 992201
+          </p>
+
+        </div>
+      </div> <!-- End of row -->
+    </div> <!-- End of container -->
+  </div>
+      
+  <!-- <button class="tablink" onclick="openTab('Intro', this, 'red')" id="defaultOpen">Main</button> -->
+  <button class="tablink" onclick="openTab('Bowl', this, 'red')">Bowl</button>
+  <button class="tablink" onclick="openTab('PartiesEvents', this, 'red')">Parties/Events</button>
+  <button class="tablink" onclick="openTab('FoodBar', this, 'red')">Food/Bar</button>
+  <button class="tablink" onclick="openTab('Contact', this, 'red')">Contact Us</button>
+
+  
+
+<!-- Footer -->
+<footer class="footer">
+    <center><p><a href="#">Contact</a> | <a href="#">Gallery</a>
+    </br>Powered by <a href="http://greenlightcomputers.tech">Green Light Computers</a><center>
+    &copy DRG Entertainment, LLC | ALL RIGHTS RESERVED
+</footer>
+
+  <!-- Begin Javascript Code -->
+  <script>
+    // Javascript executed once the page is loaded....
+    $(document).ready(function()
+    {
+        // Get the element with id="defaultOpen" and click on it
+        document.getElementById("defaultOpen").click();
+    }); //endReady
+  </script>
+
+</body>
+</html>
